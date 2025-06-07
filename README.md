@@ -3,7 +3,7 @@
 
 🤔 ¿Estás empezando en el mundo de la programación y no sabes por qué proyecto comenzar?
 
-Este repositorio es perfecto para ti. Con esta calculadora simple, podrás practicar conceptos básicos de desarrollo web mientras aprendes a estructurar código, aplicar estilos y agregar interactividad con JavaScript.
+Este repositorio es perfecto para ti. Con esta calculadora simple, podrás practicar conceptos básicos de desarrollo mientras aprendes a estructurar código, aplicar estilos y agregar interactividad con JavaScript. Todo lo de este repositorio es sin ningun framework con HTML, CSS y JavaScript puro. 
 
 ## 📌 Características
 
