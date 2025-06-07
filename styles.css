@@ -8,35 +8,38 @@ body{
     min-height: 100vh;
     background-color: black;
     display: grid;
-    place-items: center;
+    place-items: center; /* Centra la calculadora vertical y horizontalmente */
 }
 
+/* Contenedor principal de la calculadora */
 .calculator{
-    background-color: rgb(52, 200, 106);
-    color: aliceblue;
+    background-color: rgb(52, 200, 106); /* Fondo verde */
+    color: aliceblue; /* Texto claro */
     width: 350px;
     max-width: 100%;
     padding: 1.5rem;
     border-radius: 1rem;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: .5rem;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+    gap: .5rem; /* Espacio entre los elementos */
 }
 
+/* Pantalla de la calculadora */
 .screen{
-    grid-column: 1/-1;
-    background-color: rgb(76, 76, 76);
+    grid-column: 1/-1; /* Ocupa todas las columnas */
+    background-color: rgb(76, 76, 76); /* Fondo gris oscuro */
     padding: 1.5rem;
     font-size: 2rem;
-    text-align: right;
+    text-align: right; /* Alinea el texto a la derecha */
     border-radius: .5rem;
     margin-bottom: 1rem;
     font-family: monospace;
     font-weight: 600;
 }
 
+/* Estilos generales para los botones */
 button{
-    background-color: rgb(200, 46, 56);
+    background-color: rgb(200, 46, 56); /* Rojo */
     color: white;
     padding: 1.5rem .5rem;
     display: flex;
@@ -46,19 +49,23 @@ button{
     cursor: pointer;
 }
 
+/* Efecto al pasar el mouse sobre los botones */
 button:hover{
-    background-color: rgba(128, 38, 44, 0.9);
+    background-color: rgba(128, 38, 44, 0.9); /* Rojo más oscuro */
 }
 
+/* El botón 0 ocupa dos columnas */
 #zero{
     grid-column: span 2;
 }
 
+/* El botón igual ocupa dos filas y tiene color especial */
 #equal{
     grid-row: span 2;
     background-color:  rgb(200, 46, 56);
 }
 
+/* Efecto hover para el botón igual */
 #equal:hover{
     background-color: rgba(128, 38, 44, 0.9);
 }
