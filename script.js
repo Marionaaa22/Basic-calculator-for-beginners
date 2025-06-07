@@ -37,6 +37,5 @@ buttons.forEach((btn) => {
         else{
             screen.textContent += buttonPressed;
         }
-        
     });
 });
