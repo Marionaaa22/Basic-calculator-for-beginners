@@ -45,4 +45,5 @@ JavaScript: Maneja la lógica de la calculadora.
 
 🌐 Mi Portfolio https://marionaaa22.github.io/
 
+💼 Mi perfil de Linkedin
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/mariona-claros-a0552a2b1)
