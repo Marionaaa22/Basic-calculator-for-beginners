@@ -12,7 +12,7 @@ body{
 }
 
 .calculator{
-    background-color: rgb(60, 82, 159);
+    background-color: rgb(52, 200, 106);
     color: aliceblue;
     width: 350px;
     max-width: 100%;
@@ -25,7 +25,7 @@ body{
 
 .screen{
     grid-column: 1/-1;
-    background-color: rgb(34, 45, 85);
+    background-color: rgb(76, 76, 76);
     padding: 1.5rem;
     font-size: 2rem;
     text-align: right;
